@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Diabetes Test</title>
+<body>
+  <div class="testbox">
+    <form action="/" method="POST">
+      <div class="banner">
+        <h1 class="banner_heading">Check Your Diabetes</h1>
+      </div>
+      <div class="colums">
+        <div class="item">
+          <label for=""> Pregnancies <span>*</span></label>
+          <input id="fname" type="number" name="Pregnent" required />
+        </div>
+        <div class="item">
+          <label for="lname"> Glucose<span>*</span></label>
+          <input id="lname" type="number" name="glucose" required />
+        </div>
+        <div class="item">
+          <label for="address1">BloodPressure <span>*</span></label>
+          <input id="address1" type="number" name="blood_pressure" required />
+        </div>
+        <div class="item">
+          <label for="address2"> SkinThickness <span>*</span></label>
+          <input id="address2" type="number" name="skin_thickness" required />
+        </div>
+        <div class="item">
+          <label for="state">Insulin<span>*</span></label>
+          <input id="state" type="text" name="insulin" required />
+        </div>
+        <div class="item">
+          <label for="zip">BODY MASS INDEX (BMI)<span>*</span></label>
+          <input id="zip" type="text" name="body_mass_index" required />
+        </div>
+        <div class="item">
+          <label for="city">DiabetesPedigreeFunction<span>*</span></label>
+          <input id="city" type="text" name="dpf" required />
+        </div>
+        <div class="item">
+          <label for="eaddress">Age<span>*</span></label>
+          <input id="eaddress" type="number" name="age" required />
+        </div>
+      </div>
+
+      <div class="btn-block">
+        <button type="submit" href="/submit.html">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
